@@ -1,0 +1,110 @@
+<html>                                       
+<head>
+<title>Welcome page</title>                         
+</head>
+<body style = "background-color:aquamarine;">
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+<h2 style ="color:black">Hello All</h2>
+<p style ="color:brown">You are in your best time</p>
+</body>
+
+</html>   
+
+<html>
+<head>
+<style>
+body {background-color:pink}  
+h2   {color:blueviolet}
+p    {color:darkgoldenrod}  
+</style>    
+</head>   
+<body>
+<h2> This is new heading</h2> 
+<p>This is new paragraph</p>   
+</body>
+
+</html>
+
+<html>
+<head>
+<style>
+h2 {color:blue;
+    font-family: Lucida;
+    font-size :180% ;
+}
+                                                                      /*  '''always give solid before any border colour''' */ */
+     
+p   {color:brown;
+      font-family : courier;
+      font-size :120% ;
+       border : 3px solid black;                    
+      padding : 30px;
+
+      }   
+
+table {
+    border: 3px solid black; /* Set the border for the table */
+    border-collapse: collapse; /* Combine cell borders into a single border */
+}
+
+th, td {
+    border: 1px solid black; /* Set a border for table cells */
+}
+               
+</style>    
+</head>
+<body>
+<h2>This is 3rd heading</h2> 
+<p>This is 3rd paragraph</p>
+<p>This is 3rd paragraph</p>   
+<p>This is 3rd paragraph</p>   
+<p>This is 3rd paragraph</p>  
+
+<h1>An html table</h1>
+
+<table style="width: 100%">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>    
+
+</table>
+
+{% for i in all_emp%}
+{{i}} <br>                                                        
+{% endfor %}    
+
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Width and Height Attributes</h2>
+
+<p>The width and height attributes of the img tag, defines the width and height of the image:</p>
+
+<img src="scooty_image.jpg" width="100" height="150">
+
+</body>
+</html> -->
+
+
+
